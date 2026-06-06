@@ -1,12 +1,12 @@
 # Spanish/French Dialect ASR Corpus
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20575156.svg)](https://doi.org/10.5281/zenodo.20575156)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20575155.svg)](https://doi.org/10.5281/zenodo.20575155)
 
 A 20-hour gender-balanced corpus of Spanish and French dialect speech with manual transcriptions.
 
 ## Data Access & Reproducibility
 
-The audio segments are stored in a private Google Drive remote to comply with copyright restrictions on source material. Access is granted for research purposes only — redistribution of audio is not permitted.
+The audio segments are stored in an access-controlled Google Drive remote to comply with copyright restrictions on source material. Access is granted for research purposes only — redistribution of audio is not permitted.
 
 To reconstruct the dataset:
 
@@ -28,7 +28,7 @@ To reconstruct the dataset:
 ## Repository Contents
 
 - `metadata.csv` — Manual transcripts, dialect labels, gender tags, and speaker IDs for 1,223 minutes of speech across 129 speakers
-- `Audio Files.dvc` — DVC pointer to the audio corpus (hosted on private Google Drive)
+- `Audio Files.dvc` — DVC pointer to the audio corpus (hosted on gated Google Drive)
 - `.dvc/config` — Remote storage configuration
 
 
